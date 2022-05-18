@@ -1,0 +1,348 @@
+body{
+    background-color: #FFFFFF;
+    margin: auto; 
+ 
+}
+
+.tela{
+    position: relative;
+    font-family: 'TT Norms Pro', sans-serif;
+    max-width: 375px;
+    height: 812px;
+    margin: auto;
+}
+
+.tela .img_cabecalho{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.vetor1{
+    position: absolute;
+    top: 86.5px;
+    left: 24px;
+}
+.vetor2{
+    position: absolute;
+    top: 94.75px;
+    left: 24px;
+}
+
+.cesta{
+    position: absolute;
+    top: 68px;
+    right: 24px;
+}
+
+.bem-vindo{
+    margin-top: 35px;
+    margin-left: 62px;
+    width: 106px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #27214D;
+}
+
+.pesquisar .input_pesquisar{
+    text-align: left;
+    margin-top: 42px;
+    margin-left: 24px;
+    height: 56px;
+    width: 288px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B4B4C0
+}
+
+.filtro{
+    position: absolute;
+    top: 148px;
+    left: 316px;
+}
+
+.lista{
+    margin-top: 18px;
+    margin-left: 24px;
+}
+
+.lista li{
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;   
+    padding: 8px 16px;
+    gap: 8px; 
+    display: inline-block;
+}
+
+.recomendacoes{
+    width: 190px;
+    height: 30px;
+    margin-top: 36px;
+    margin-left: 24px;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+align-items: center;
+
+color: #27214D;
+}
+
+.borda{
+    margin-top: 4px;
+    margin-left: 24px;
+    width: 56px;
+    border: 2px solid #FFA451;
+}
+
+
+.lista_combo{    
+    margin-top: 16px;
+    width: 375px;
+    margin-left: 0px;
+}
+
+
+
+.lista_combo ul{
+    margin-left: 24px;
+    width: 100%;
+
+}
+.lista_combo li{
+    position: relative;
+    display: inline-block;
+    margin-right: 23px;
+    text-align: center;
+    width: 152px;
+    height: 183px;
+    border-radius: 16px;
+    box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.05);
+
+}
+
+.lista_combo .img_mais{
+    position: absolute;
+    top: 141px;
+    left: 112px;
+}
+
+.lista_combo p{
+        text-align: left;
+        margin-left: 16px;
+        margin-top: 13px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.01em;
+        color: #27214D;    
+}
+
+.lista_combo h1{
+    margin-top: 13px;
+    text-align: left;
+    margin-left: 16px;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+align-items: center;
+letter-spacing: -0.01em;
+
+color: #F08626;
+}
+
+
+.lista_combo .img_combo{
+    margin-top: 22px;
+
+}
+
+.lista_combo li h3{
+    margin-top: 13px;
+    margin-left: 16px;
+}
+
+.lista_combo .img_coracao{
+    position: absolute;
+    top: 16px;
+    left: 120px;
+}
+
+.lista_combo h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #27214D;
+    align-items: center;
+}
+
+.lista_tipos{
+    margin-top: 40px;
+}
+
+.lista_tipos li{
+    margin-left: 24px;
+    margin-right: 0px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 30px;
+    color: #253F66;
+
+}
+
+
+.lista_tipos .selecionado{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #27214D;
+    margin-left: 24px;
+    text-align: center;
+}
+
+.borda2{
+    width: 38px;
+    border: 2px solid #FFA451;
+    margin-top: 4px;
+    margin-left: 24px;
+    height: 0px;
+}
+
+.foto_pratos{
+    position: relative;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 327px;
+}
+
+.quinoa{
+    position: relative;
+    text-align: center; 
+    width: 140px;
+    height: 150px;
+    display: inline-block;
+    
+background: #FFFCF2;
+border-radius: 10px;
+    
+}
+
+.quinoa .img_quinoa {  
+     
+    margin-top: 19px;
+    margin-bottom: 9px;
+}
+
+.quinoa p{
+    text-align: left;
+    margin-left: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #27214D;
+}
+
+.quinoa h1{
+    margin-top: 11px;
+    text-align: left;
+    margin-left: 8px;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+align-items: center;
+letter-spacing: -0.01em;
+
+color: #F08626;
+}
+
+.quinoa .img_coracao{
+    position: absolute;
+    top: 16px;
+    left: 108px;
+}
+
+.quinoa .img_mais{
+    position: absolute;
+    top: 118px;
+    left: 108px;
+}
+
+.tropical{
+    position: relative;
+    text-align: center;
+    width: 140px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    background: #FEF4F4;
+    border-radius: 10px;
+    margin-left: 42px;
+}
+
+.tropical p{
+    text-align: left;
+    margin-left: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #27214D;
+}
+
+.tropical h1{
+    margin-top: 11px;
+    text-align: left;
+    margin-left: 8px;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+align-items: center;
+letter-spacing: -0.01em;
+color: #F08626;
+}
+
+.tropical .img_coracao{
+    position: absolute;
+    top: 16px;
+    left: 108px;
+}
+
+.tropical .img_tropical {    
+    margin-top: 32px;
+    margin-bottom: 9px;
+}
+
+.tropical .img_mais{
+    position: absolute;
+    top: 118px;
+    left: 108px;
+}
+
+
+
+
+
+
+
+
+
+
+

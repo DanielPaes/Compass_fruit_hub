@@ -1,0 +1,32 @@
+body{
+    background-color: #FFFFFF;
+    margin: auto;    
+}
+
+.tela{
+    position: relative;
+    font-family: 'TT Norms Pro', sans-serif;
+    width: 375px;
+    height: 812px;
+    margin: auto;
+}
+
+.cabecalho{
+    width: 100%;
+}
+
+.cabecalho .img_cabecalho{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.logo{
+    position: absolute;
+    top: 303px;
+    left: 95px;
+    width: 184px;
+    height: 206px;
+}
+
+
+
