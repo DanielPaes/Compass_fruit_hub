@@ -1,0 +1,210 @@
+body{
+    background-color: #FFFFFF;
+    margin: auto;  
+    max-width: 640px;
+    max-height: 1040px;
+}
+
+.tela{
+    font-family: 'TT Norms Pro', sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: #FFA451;
+}
+
+.cabecalho{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho img{
+    width: 100%;
+    height: 44px;
+}
+
+.cabecalho .img_cabecalho{
+    width: 100%;
+}
+
+.botao_goback{
+    position: absolute;
+    top: 68px;
+    left: 24px;
+}
+
+.tela_superior{
+    width: 100%;
+    height: 136px;
+    text-align: center;
+}
+
+.tela_superior .titulo{
+    margin-top: 22px;
+    margin-left: 34.93%;
+}
+
+.tela_superior .titulo h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+
+
+.tela_inferior{
+    width: 100%;
+    height: 676px;
+    background: #FFFFFF;
+}
+
+.lista{
+    width: 100%;
+
+}
+
+.lista ul{
+    padding-top: 40px;
+    vertical-align: middle;
+}
+
+.lista ul li{
+    padding-bottom: 0px;
+    width: 87.2%;
+    margin-left: 6.4%;
+    height: 64px;
+}
+
+.lista_pedidos img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lista_pedidos h2{
+    display: inline-block;
+    padding-left: 16px;
+    vertical-align: top;
+    padding-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    color: #333333;
+
+}
+
+.lista_pedidos .img_complete{
+    float: right;
+    padding-top: 20px;
+}
+
+.lista_pedidos .img_phone{
+    float: right;
+    padding-top: 12px;
+}
+
+.lista_pedidos .linha{
+    display: block;
+    height: 54px;
+}
+
+.lista_pedidos .linha img{
+    padding-top: 4px;
+    padding-left: 33px;
+}
+
+.lista_pedidos .texto_entrega{
+    display: inline-block;
+    padding-left: 16px;
+
+}
+
+
+.lista_pedidos .texto_entrega{
+
+    vertical-align: top;
+    display: inline-block;
+    
+}
+
+.lista_pedidos .texto_entrega h2{ 
+    padding-top: 12px;
+    padding-left: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    color: #333333;
+}
+
+.lista_pedidos .texto_entrega p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+    color: rgba(51, 51, 51, 0.8);
+}
+
+.mapa{
+    width: 87.2%;
+    margin: auto;
+}
+
+.mapa .img_mapa{
+    width: 100%;
+}
+
+.linha_vertical{
+    margin: auto;
+    width: 87.2%;
+    margin-top: 5px;
+}
+
+.linha_vertical img{
+    padding-left: 33px;
+}
+
+
+.status{
+
+    margin: auto;
+    width: 87.2%;
+    margin-top: 5px;
+    vertical-align: top;
+    align-items: center;
+}
+
+.status img{
+    display: inline-block;
+}
+
+.status .texto{
+    display: inline-block;
+    line-height: 66px;
+    vertical-align: top;
+    margin-left: 5.245%;
+}
+
+.status .circulos{
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    height: 66px;
+    
+}
+.status .circulo{
+    display: inline-block;
+    margin-top: 29px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #FFE3C9;
+    margin-left: 5px;
+}

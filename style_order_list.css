@@ -12,13 +12,17 @@ body{
     height: 100%;
     margin: auto;
     background: #FFA451;
-    border-radius: 40px;
 }
 
 .cabecalho{
     width: 100%;
     align-items: center;
     text-align: center;
+}
+
+.cabecalho img{
+    width: 100%;
+    height: 44px;
 }
 
 .botao_goback{
@@ -113,14 +117,17 @@ color: #27214D;
 }
 
 .conta{
-    margin: 0px 24px;
-    padding-top: 63px;
-    height: 56px;
+    display: flex;
+    margin: 0px;
+    height: 24.56%;
+    background: #FAFAFA;
+    justify-content: space-between;
 
 }
 
 .conta .valor{
-    display: inline-block;
+    margin-top: 63px;
+    margin-left: 24px;
 }
 
 .conta .valor p{
@@ -159,8 +166,8 @@ color: #27214D;
 
 
 .botao{
-    display: inline;
-    float: right;
+    margin-top: 63px;
+    margin-right: 24px;
 }
 
 .botao button{

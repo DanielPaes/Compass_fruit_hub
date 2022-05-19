@@ -1,0 +1,99 @@
+body{
+    background-color: #FFFFFF;
+    margin: auto;  
+    width: 375px;
+    max-height: 467px;
+}
+
+.tela{
+    font-family: 'TT Norms Pro', sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+label{
+    
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #27214D;
+
+}
+
+.tela .superior{
+    width: 87.2%;
+    margin: auto;
+    padding-top: 32px;
+}
+
+form{
+    text-align: center;
+}
+
+
+input{
+    padding: 0px;
+    margin-top: 17px;
+    margin-bottom: 16px;
+    width: 100%;
+    border: none;
+    height: 56px;
+    background: #F7F5F5;
+    border-radius: 10px;
+
+
+    
+}
+
+input[type="text"]::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    background: #F7F5F5;
+    color: #C2BDBD;
+    padding: 16px;
+}
+
+.inferior{
+    margin: auto;
+    width: 87.2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inferior .data{
+    width: 45%;
+}
+
+.inferior .cvv{
+    width: 45%;
+}
+
+.botao{
+    margin-top: 16px;
+    text-align: center;
+    width: 242px;
+    height: 56px;
+
+    border: none;
+    background: #FFA451;
+    border-radius: 10px;
+
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.01em;
+color: #FFFFFF;
+
+}

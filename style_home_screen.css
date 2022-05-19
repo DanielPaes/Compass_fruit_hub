@@ -7,9 +7,10 @@ body{
 .tela{
     position: relative;
     font-family: 'TT Norms Pro', sans-serif;
-    max-width: 375px;
+    max-width: 640px;
     height: 812px;
     margin: auto;
+    text-align: center;
 }
 
 .tela .img_cabecalho{
@@ -101,30 +102,23 @@ color: #27214D;
 }
 
 
-.lista_combo{    
-    margin-top: 16px;
-    width: 375px;
-    margin-left: 0px;
+.lista_combo{   
+    display: flex; 
+    margin: 16px 24px 24px 0px;
+    justify-content: space-between;
+    
 }
 
-
-
-.lista_combo ul{
-    margin-left: 24px;
-    width: 100%;
-
-}
-.lista_combo li{
+.lista_combo .combo1, .combo2{
     position: relative;
-    display: inline-block;
-    margin-right: 23px;
+    margin-left: 24px;
     text-align: center;
     width: 152px;
     height: 183px;
     border-radius: 16px;
     box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.05);
-
 }
+
 
 .lista_combo .img_mais{
     position: absolute;
@@ -187,6 +181,7 @@ color: #F08626;
 
 .lista_tipos{
     margin-top: 40px;
+    text-align: justify;
 }
 
 .lista_tipos li{
@@ -219,22 +214,22 @@ color: #F08626;
     margin-top: 4px;
     margin-left: 24px;
     height: 0px;
+    margin-bottom: 24px;
 }
 
 .foto_pratos{
     position: relative;
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 327px;
+    display: flex;
+    margin: 0px 24px 0px 24px;
+    justify-content: space-between;
+    
 }
 
 .quinoa{
     position: relative;
     text-align: center; 
     width: 140px;
-    height: 150px;
-    display: inline-block;
-    
+    height: 150px;    
 background: #FFFCF2;
 border-radius: 10px;
     
@@ -288,11 +283,9 @@ color: #F08626;
     text-align: center;
     width: 140px;
     height: 150px;
-    display: inline-block;
     vertical-align: top;
     background: #FEF4F4;
     border-radius: 10px;
-    margin-left: 42px;
 }
 
 .tropical p{
